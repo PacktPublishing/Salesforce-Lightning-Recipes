@@ -1,0 +1,16 @@
+myFirstLightningComponent.cmp
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <!-- for the label of the Name -->
+    <aura:attribute name="enterName" type="String" default="Enter Name"/>
+    <ui:outputText value="{!v.enterName}" />
+    <ui:inputText />
+    <ui:button label="Submit" />
+</aura:component>
+
+myFirstLightningComponent.design
+<design:component label="Hello World">
+    <design:attribute name="enterName" label="Provide The Name" />
+</design:component>
+
+myFirstLightningComponent.svg
+<?xml version="1.0"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"> <circle cx="100" cy="100" r="50" stroke="black" stroke-width="5" fill="green" /> </svg>
